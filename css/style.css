@@ -1,0 +1,259 @@
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  --main-text-cl: #212121;
+  --btn-cl: #2196f3;
+  --bg-cl: #e5e5e5;
+  --pargf-cl: #757575;
+  --dark-bg: #2f303a;
+  --text-white: #ffffff;
+
+  --maim-font: "Roboto", sans-serif;
+}
+html {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.page {
+  background-color: var(--bg-cl);
+  font-family: var(--maim-font);
+  color: var(--main-text-cl);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+}
+.list {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.title {
+  display: inline-block;
+}
+.header {
+  color: var(--text-white);
+}
+.nav {
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--btn-cl);
+  display: flex;
+}
+.logo-studio {
+  color: var(--main-text-cl);
+}
+.nav .site-nav-link:hover,
+.nav .site-nav-link:focus {
+  color: var(--btn-cl);
+}
+
+.auth .contakts-mail:hover,
+.auth .contakts-mail :focus {
+  color: var(--btn-cl);
+}
+.auth .contakts-tel:hover,
+.auth .contakts-tel:focus {
+  color: var(--btn-cl);
+}
+.site-nav-link {
+  font-weight: 500;
+  line-height: 1.14;
+  color: var(--main-text-cl);
+}
+.site-nav-link-studia {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--btn-cl);
+}
+.auth {
+}
+.contakts-mail {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--pargf-cl);
+}
+.contakts-tel {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--pargf-cl);
+}
+.herro {
+  background: var(--dark-bg);
+  text-align: center;
+}
+.herro-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  color: #ffffff;
+}
+.herro-button {
+  background: var(--btn-cl);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--text-white);
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+}
+.features {
+  background: var(--bg-cl);
+}
+.title {
+  font-weight: bold;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-text-cl);
+  margin-bottom: 0;
+}
+
+.title-h-three {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--main-text-cl);
+}
+.desc {
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: pargf-cl;
+}
+.our-work {
+  background: var(--bg-cl);
+}
+.title-h-two {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: main-text-cl;
+}
+.our-team {
+  background-color: var(--bg-cl);
+}
+.footer {
+  background-color: var(--dark-bg);
+  color: var(--text-white);
+  text-decoration: none;
+}
+.footer .footer-address:hover,
+.footer .footer-address:focus {
+  color: var(--btn-cl);
+}
+.footer .footer-contakts:hover,
+.footer .footer-contakts:focus {
+  color: var(--btn-cl);
+}
+.logo-studio-footer {
+  color: var(--text-white);
+  line-height: 1.7;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  color: var(--text-white);
+  line-height: 1.14;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.footer-contakts {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.contakts-mail-portfolio {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--pargf-cl);
+}
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.our-services .our-services-button:hover,
+.our-services .our-services-button:focus {
+  background: var(--btn-cl);
+}
+.our-services-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--main-text-cl);
+  background: var(--bg-cl);
+  cursor: pointer;
+  display: inline-block;
+  width: 145px;
+  height: 38px;
+  border-radius: 4px;
+}
+.our-projects-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--main-text-cl);
+}
+.our-projects-type {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--pargf-cl);
+}
