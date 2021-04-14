@@ -55,6 +55,9 @@ p {
 .header {
   color: var(--text-white);
 }
+.main-nav {
+  display: flex;
+}
 .nav {
   display: flex;
   align-items: center;
@@ -298,8 +301,11 @@ p {
 .our-services .our-services-button:focus {
   background: var(--btn-cl);
 }
-.services-button {
-  display: inline-block;
+.project-button {
+  display: flex;
+}
+.services-button .container {
+  display: flex;
 }
 .our-services-button {
   font-weight: 500;
@@ -327,7 +333,9 @@ p {
   flex-wrap: wrap;
 }
 .card-list-iten {
-  margin-left: 30px;
+  margin-right: 30px;
+  background-color: var(--text-white);
+  margin-bottom: 30px;
 }
 .project-content {
   padding: 15px;
