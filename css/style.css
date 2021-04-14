@@ -59,7 +59,7 @@ p {
 }
 .main-nav {
   display: flex;
-  background: var(--text-white);
+  background: var(--bg-cl);
 }
 .nav {
   display: flex;
@@ -81,7 +81,6 @@ p {
   line-height: 1.2;
   color: var(--btn-cl);
   display: flex;
-  margin-top: 24px;
 }
 .logo-studio {
   color: var(--main-text-cl);
@@ -90,8 +89,6 @@ p {
   display: flex;
   margin-left: 93px;
   margin-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .nav .site-nav-link:hover,
 .nav .site-nav-link:focus {
@@ -232,6 +229,7 @@ p {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  width: 270px;
 }
 .footer {
   background-color: var(--dark-bg);
@@ -279,7 +277,7 @@ p {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-..footer-contakts-item {
+.footer-contakts-item {
   display: block;
   padding-left: 0;
 }
@@ -306,6 +304,9 @@ p {
   width: 1px !important;
   overflow: hidden;
 }
+.our-services {
+  background-color: var(--bg-cl);
+}
 
 .our-services .our-services-button:hover,
 .our-services .our-services-button:focus {
@@ -314,8 +315,16 @@ p {
 .project-button {
   display: flex;
 }
-.services-button .container {
+.button-list {
   display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+.button-item {
+  justify-content: center;
+}
+.button-item:not(:last-child) {
+  margin-right: 8px;
 }
 .our-services-button {
   font-weight: 500;
@@ -328,11 +337,19 @@ p {
   width: 145px;
   height: 38px;
   border-radius: 4px;
+  padding: 6px 22px;
 }
 .card-set {
   flex-basis: calc(100% / 3 -20px);
   margin-left: 30px;
   margin-top: 50px;
+}
+.card-set :nth-child(3n) {
+  margin-right: 0;
+}
+.card-list-content {
+  border: 1px solid #eeeeee;
+  width: 370px;
 }
 .card-set {
   margin-top: 50px;
