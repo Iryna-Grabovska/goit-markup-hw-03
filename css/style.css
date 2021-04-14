@@ -51,12 +51,15 @@ p {
   list-style: none;
 }
 .title {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .header {
   color: var(--text-white);
 }
 .main-nav {
   display: flex;
+  background: var(--text-white);
 }
 .nav {
   display: flex;
@@ -86,7 +89,6 @@ p {
 .site-nav {
   display: flex;
   margin-left: 93px;
-  margin-top: 32px;
   margin-right: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -120,6 +122,8 @@ p {
   margin-left: auto;
 }
 .auts-list-item:not(last child) {
+  padding-top: 32px;
+  padding-bottom: 32px;
   margin-right: 50px;
   margin-left: auto;
 }
@@ -170,7 +174,7 @@ p {
   margin-right: 20px;
 }
 .feature-title {
-  margin-top: ;
+  padding-top: 94px;
   padding-bottom: 10px;
 }
 .title {
@@ -208,12 +212,13 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   color: main-text-cl;
+  padding-top: 94px;
 }
 .our-work-item:not(:last-child) {
   margin-right: 30px;
 }
 .our-team {
-  background-color: var(--bg-cl);
+  background-color: #f5f4fa;
 }
 .team-list {
   display: flex;
@@ -253,6 +258,7 @@ p {
 }
 
 .footer-address {
+  margin-top: 20px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -272,6 +278,10 @@ p {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+..footer-contakts-item {
+  display: block;
+  padding-left: 0;
 }
 .footer-contakts-item:not(:last-child) {
   margin-top: 9px;
@@ -345,6 +355,10 @@ p {
 }
 .card-text {
   margin-top: 10px;
+}
+.card-content {
+  margin-left: 24px;
+  margin-bottom: 20px;
 }
 .our-projects-name {
   font-weight: bold;
