@@ -316,6 +316,9 @@ p {
 .footer-contakts-title:not(:last-child) {
   margin-bottom: 9px;
 }
+.footer-post {
+  display: block;
+}
 .contacts {
   margin-top: 20px;
   font-style: inherit;
