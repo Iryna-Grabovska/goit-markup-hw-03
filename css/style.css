@@ -11,7 +11,6 @@ a {
   --pargf-cl: #757575;
   --dark-bg: #2f303a;
   --text-white: #ffffff;
-
   --maim-font: "Roboto", sans-serif;
 }
 html {
@@ -32,7 +31,7 @@ p {
   box-sizing: inherit;
 }
 .page {
-  background-color: var(--text-white)
+  background-color: var(--text-white);
   font-family: var(--maim-font);
   color: var(--main-text-cl);
   font-style: normal;
@@ -144,6 +143,7 @@ p {
   padding-bottom: 200px;
 }
 .herro-title {
+  font-family: var(--maim-font);
   margin-top: 0;
   font-weight: 900;
   font-size: 44px;
@@ -352,6 +352,7 @@ p {
   height: 38px;
   border-radius: 4px;
   padding: 6px 22px;
+  border-style: none;
 }
 .card-set {
   flex-basis: calc(100% / 3 -20px);
