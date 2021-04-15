@@ -41,7 +41,7 @@ p {
   line-height: 1.7;
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -55,7 +55,8 @@ p {
   margin-bottom: 0;
 }
 .header {
-  color: var(--text-white);
+  margin-left: 0;
+  border: 1px solid #ececec;
 }
 .main-nav {
   display: flex;
@@ -139,14 +140,16 @@ p {
 .herro {
   background: var(--dark-bg);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .herro-title {
   margin-top: 0;
-  margin-bottom: 0;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   color: #ffffff;
+  margin-bottom: 30px;
 }
 .herro-button {
   background: var(--btn-cl);
@@ -157,6 +160,10 @@ p {
   height: 38px;
   left: 712px;
   top: 174px;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
 }
 .features {
   background: var(--bg-cl);
@@ -219,6 +226,7 @@ p {
 }
 .team-list {
   display: flex;
+  padding-bottom: 94px;
 }
 .team-list-item:not(:last-child) {
   margin-right: 30px;
@@ -246,13 +254,14 @@ p {
 }
 .logo-studio-footer {
   color: var(--text-white);
-  line-height: 1.7;
+  line-height: 1.2;
   /* or 171% */
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 .footer-contakts-list {
   display: block;
+  padding-left: 0;
 }
 
 .footer-address {
@@ -306,6 +315,7 @@ p {
 }
 .our-services {
   background-color: var(--bg-cl);
+  padding-top: 94px;
 }
 
 .our-services .our-services-button:hover,
@@ -314,14 +324,14 @@ p {
 }
 .project-button {
   display: flex;
-}
-.button-list {
-  display: flex;
   margin-bottom: 50px;
   justify-content: center;
 }
-.button-item {
+.button-list {
+  display: flex;
   justify-content: center;
+}
+.button-item {
 }
 .button-item:not(:last-child) {
   margin-right: 8px;
