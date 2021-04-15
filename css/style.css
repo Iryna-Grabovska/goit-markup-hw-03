@@ -32,7 +32,7 @@ p {
   box-sizing: inherit;
 }
 .page {
-  background-color: var(--bg-cl);
+  background-color: var(--text-white)
   font-family: var(--maim-font);
   color: var(--main-text-cl);
   font-style: normal;
@@ -60,7 +60,7 @@ p {
 }
 .main-nav {
   display: flex;
-  background: var(--bg-cl);
+  background: var(--text-white)
 }
 .nav {
   display: flex;
@@ -166,7 +166,7 @@ p {
   top: 430px;
 }
 .features {
-  background: var(--bg-cl);
+  background: var(--text-white)
 }
 .features-list {
   display: flex;
@@ -179,7 +179,6 @@ p {
 }
 .feature-title {
   padding-top: 94px;
-  padding-bottom: 10px;
 }
 .title {
   font-weight: bold;
@@ -187,7 +186,7 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-text-cl);
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .title-h-three {
@@ -204,7 +203,9 @@ p {
   padding-bottom: 30px;
 }
 .our-work {
-  background: var(--bg-cl);
+  background: var(--text-white)
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .our-work-list {
   display: flex;
@@ -216,17 +217,18 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   color: main-text-cl;
-  padding-top: 94px;
+  margin-bottom: 50px;
 }
 .our-work-item:not(:last-child) {
   margin-right: 30px;
 }
 .our-team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-list {
   display: flex;
-  padding-bottom: 94px;
 }
 .team-list-item:not(:last-child) {
   margin-right: 30px;
@@ -240,6 +242,8 @@ p {
   width: 270px;
 }
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--dark-bg);
   color: var(--text-white);
   text-decoration: none;
@@ -314,7 +318,7 @@ p {
   overflow: hidden;
 }
 .our-services {
-  background-color: var(--bg-cl);
+  background-color: var(--text-white);
   padding-top: 94px;
 }
 
@@ -339,9 +343,9 @@ p {
 .our-services-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.63;
   color: var(--main-text-cl);
-  background: var(--bg-cl);
+  background: #F5F4FA;
   cursor: pointer;
   display: inline-block;
   width: 145px;
