@@ -117,6 +117,10 @@ p {
   padding-bottom: 32px;
   display: block;
 }
+.herro-button:hover,
+.herro-button:focus {
+  background-color: #188ce8;
+}
 .auth {
   display: flex;
   margin-left: auto;
