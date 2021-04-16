@@ -107,6 +107,7 @@ p {
   color: var(--main-text-cl);
   padding-top: 32px;
   padding-bottom: 32px;
+  display: block;
 }
 .site-nav-link-studia {
   font-weight: 500;
@@ -115,6 +116,7 @@ p {
   color: var(--btn-cl);
   padding-top: 32px;
   padding-bottom: 32px;
+  display: block;
 }
 .auth {
   display: flex;
@@ -130,6 +132,7 @@ p {
   color: var(--pargf-cl);
   padding-top: 32px;
   padding-bottom: 32px;
+  display: block;
 }
 .contakts-tel {
   font-weight: 500;
@@ -138,6 +141,7 @@ p {
   color: var(--pargf-cl);
   padding-top: 32px;
   padding-bottom: 32px;
+  display: block;
 }
 .herro {
   background: var(--dark-bg);
