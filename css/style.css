@@ -55,7 +55,7 @@ p {
 }
 .header {
   margin-left: 0;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .main-nav {
   display: flex;
@@ -121,10 +121,7 @@ p {
   margin-left: auto;
 }
 .auts-list-item:not(last child) {
-  padding-top: 32px;
-  padding-bottom: 32px;
   margin-right: 50px;
-  margin-left: auto;
 }
 .contakts-mail {
   font-weight: 500;
@@ -200,12 +197,12 @@ p {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--main-text-cl);
+  margin-top: 0px;
 }
 .desc {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--pargf-cl);
-  padding-bottom: 30px;
 }
 .our-work {
   background: var(--text-white);
@@ -230,7 +227,6 @@ p {
 }
 .our-team {
   background-color: #f5f4fa;
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 .team-list {
@@ -247,12 +243,17 @@ p {
   border-radius: 0px 0px 4px 4px;
   width: 270px;
 }
+.our-team-content {
+  padding: 30px;
+}
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--dark-bg);
   color: var(--text-white);
   text-decoration: none;
+  padding-left: 0;
+  padding-right: 0;
 }
 .footer .footer-address:hover,
 .footer .footer-address:focus {
@@ -295,6 +296,7 @@ p {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  padding: ;
 }
 .footer-contakts {
   color: rgba(255, 255, 255, 0.6);
@@ -306,8 +308,8 @@ p {
   margin-bottom: 9px;
 }
 .post {
-  margin-top: 20px;
-  display: block;
+  margin-left: 0;
+  margin-right: 0;
 }
 .footer-contakts-item {
   padding-left: 0px;
@@ -371,11 +373,9 @@ p {
   background: #f5f4fa;
   cursor: pointer;
   display: inline-block;
-  width: 145px;
-  height: 38px;
   border-radius: 4px;
-  padding: 6px 22px;
   border-style: none;
+  padding: 6px 22px;
 }
 .card-set {
   flex-basis: calc(100% / 3 -20px);
@@ -386,7 +386,6 @@ p {
   margin-right: 0;
 }
 .card-list-content {
-  border-bottom: 1px solid #eeeeee;
   width: 370px;
 }
 .card-set {
@@ -413,6 +412,7 @@ p {
 }
 .card-content {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 .our-projects-name {
   font-weight: bold;
