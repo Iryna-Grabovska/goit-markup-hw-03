@@ -69,7 +69,7 @@ p {
   align-items: center;
   display: flex;
 }
-.nav-list-item {
+.nav-list-item:not(:last-child) {
   margin-right: 50px;
 }
 .logo {
@@ -86,7 +86,6 @@ p {
 .site-nav {
   display: flex;
   margin-left: 93px;
-  margin-right: 50px;
 }
 .nav .site-nav-link:hover,
 .nav .site-nav-link:focus {
@@ -122,7 +121,7 @@ p {
   display: flex;
   margin-left: auto;
 }
-.auts-list-item:not(last child) {
+.auts-list-item:not(:last-child) {
   margin-right: 50px;
 }
 .contakts-mail {
@@ -159,6 +158,10 @@ p {
   margin-bottom: 30px;
 }
 .herro-button {
+  letter-spacing: 0.06em;
+  line-height: 1.81;
+  font-size: 16px;
+  font-weight: 700;
   background: var(--btn-cl);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -171,13 +174,14 @@ p {
   height: 50px;
   left: 700px;
   top: 430px;
+  border-style: none;
 }
 .features {
   background: var(--text-white);
+  padding-top: 94px;
 }
 .features-list {
   display: flex;
-  padding-top: 94px;
 }
 .feature-list-item {
   flex-basis: 270px;
@@ -202,6 +206,7 @@ p {
   letter-spacing: 0.03em;
   color: var(--main-text-cl);
   margin-top: 0px;
+  margin-bottom: 10px;
 }
 .desc {
   line-height: 1.71;
@@ -222,7 +227,7 @@ p {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: main-text-cl;
+  color: var(--maim-font);
   margin-bottom: 50px;
   margin-top: 0;
 }
@@ -232,6 +237,7 @@ p {
 .our-team {
   background-color: #f5f4fa;
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .team-list {
   display: flex;
@@ -248,7 +254,7 @@ p {
   width: 270px;
 }
 .our-team-content {
-  padding: 30px;
+  padding: 30px 32px;
 }
 .footer {
   padding-top: 60px;
@@ -290,6 +296,7 @@ p {
   letter-spacing: 0.03em;
   text-decoration: none;
   margin-bottom: 9px;
+  margin-top: 20px;
 }
 .footer-contakts-list {
   font-family: Roboto;
@@ -300,7 +307,6 @@ p {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  padding: ;
 }
 .footer-contakts {
   color: rgba(255, 255, 255, 0.6);
@@ -313,7 +319,8 @@ p {
 }
 .post {
   margin-left: 0;
-  margin-right: 0;
+  margin-right: 30px;
+  width: 270px;
 }
 .footer-contakts-item {
   padding-left: 0px;
@@ -353,7 +360,8 @@ p {
 
 .our-services .our-services-button:hover,
 .our-services .our-services-button:focus {
-  background: var(--btn-cl);
+  background-color: var(--btn-cl);
+  color: var(--text-white);
 }
 .project-button {
   display: flex;
@@ -385,6 +393,9 @@ p {
   flex-basis: calc(100% / 3 -20px);
   margin-left: 30px;
   margin-top: 50px;
+}
+.card-set:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 .card-set :nth-child(3n) {
   margin-right: 0;
