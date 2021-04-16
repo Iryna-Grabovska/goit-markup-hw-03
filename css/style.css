@@ -394,11 +394,11 @@ p {
   margin-left: 30px;
   margin-top: 50px;
 }
-.card-set:nth-last-child(-n + 3) {
-  margin-bottom: 0;
-}
 .card-set :nth-child(3n) {
   margin-right: 0;
+}
+.card-set :nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 .card-list-content {
   width: 370px;
